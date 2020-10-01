@@ -1,0 +1,16 @@
+body {
+  background-color: #9266ff;
+} 
+
+.App {
+  background-color: #3f3160;
+  min-height: 800px;
+  width: 450px;
+  margin: 40px auto;
+}
+
+h1 {
+  color: aqua;
+  text-align: center;
+  font-size: 3rem;
+}

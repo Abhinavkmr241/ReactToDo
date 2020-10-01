@@ -1,0 +1,59 @@
+#todo-form input {
+    background-color: darkslateblue;
+    width: 300px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+}
+
+#todo-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#todo-form button {
+    background-color: yellow;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#todo-form input:focus {
+    outline: none;
+}
+
+#functionBox {
+    background-color: transparent;
+    width: 400px;
+    height: 50px;
+    border: 0;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#functionBox div {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.all, .active, .complete {
+    background-color: whitesmoke;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.all, .active, .complete:focus {
+    outline: none;
+}
+
+#functionBox label {
+    color: whitesmoke;
+    font-size: 15px;
+}

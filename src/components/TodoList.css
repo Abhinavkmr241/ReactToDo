@@ -1,0 +1,75 @@
+.list {
+    background-color: skyblue;
+    width: 300px;
+    height: 50px;
+    border: 1px solid darkblue;
+    padding: .25em .5em;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.list div {
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    font-size: 20px;
+}
+
+.list div input {
+    background-color: transparent;
+    font-size: 20px;
+    color: black;
+    border: 0;
+}
+
+.list div input:focus {
+    outline: none;
+}
+
+.list div button {
+    background-color: red;
+    color: yellow;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 3px;
+}
+
+#markComplete {
+    background-color: white;
+}
+
+.Checkedlist {
+    background-color: darkblue;
+    width: 300px;
+    height: 50px;
+    border: 1px solid skyblue;
+    padding: .25em .5em;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.Checkedlist div {
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+
+.Checkedlist div button {
+    background-color: red;
+    color: yellow;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 3px;
+}
+
+
